@@ -1,0 +1,43 @@
+P {
+  font-size: 50px;
+  text-align: Center;
+  font-family: "indie Flower", cursive;
+}
+
+BODY {
+
+}
+
+DIV {
+  border: solid 1px red;
+}
+
+.elephant {
+  border: solid 1px red;
+  background-color: black;
+  width: 200px;
+  overflow: auto;
+  margin-top: 50px;
+  padding: 10px 10px 10px 20px;
+  float:left;
+}
+
+.blue {
+  border: solid 1px red;
+  background-color: dodgerblue;
+  width: 200px;
+  overflow: auto;
+  margin-top: 50px;
+  padding: 10px 10px 10px 20px
+  /*float: left;*/
+}
+
+.red {
+  border: solid 1px black;
+  background-color: red;
+  width: 200px;
+  overflow: auto;
+  margin-top: 50px;
+  padding: 10px 10px 10px 20px
+  float: left;
+}
