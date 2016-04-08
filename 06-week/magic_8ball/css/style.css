@@ -1,5 +1,44 @@
 body {
-  background-color: white;
+  background: black;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-family: helvetica;
 }
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+#question {
+
+}
+
+#shakeMe {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.black{
+  background-color: black;
+}
+
+
 
 /* Your CSS goes here */
