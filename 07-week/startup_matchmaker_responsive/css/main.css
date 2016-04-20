@@ -171,12 +171,25 @@ footer {
 		font-size: 18px;
 	}
 
-@media screen and (max-width: 980px) and (min-width: )
+}
+
+@media (max-width: 959px){
+	.tout .button{
+		margin-right: 1.5em;
+	}
 
 }
 
- /*Smaller screen styles go here:
+
+
+@media (max-width: 600px) {
+
+
+ Smaller screen styles go here:
 	 To use the hamburger drop down menu, use this CSS in your media query:
+	 nav{
+	 	 width:100%;
+	 }
 	 #page-header nav li{
 		 float: none;
 	 }
@@ -191,7 +204,34 @@ footer {
 		 transition:height 1s;
 		 overflow: hidden;
 	 }
-*/
+
+.tout{
+	display: block;
+	width: 100%;
+}
+
+h3{
+	display:block;
+	width: 80%;
+	padding-left: 5%;
+}
+
+p{
+	display: block;
+	width: 80%;
+	padding-left: 5%;
+}
+
+.tout .button{
+	margin-right: 1.5em;
+	/*display: block;
+	width: 80%;*/
+}
+
+/*This is for the hamburger menu to look better.*/
+nav{
+		 width:100%;
+ }
 
 
 .slideDown{
